@@ -83,8 +83,8 @@ export default function ProductShowcase() {
                         {t(`p${p.id}WidgetHint`)}
                       </span>
 
-                      {/* Clean Minimal Risk Section instead of a dark box */}
-                      <div className="pl-6 border-l-2 border-secondary/30">
+                      {/* Clean Minimal Risk Section instead of a dark box - Desktop only */}
+                      <div className="hidden lg:block pl-6 border-l-2 border-secondary/30">
                         <h4 className="font-playfair text-foreground font-bold text-lg mb-2">
                           {t(`p${p.id}RiskTitle`)}
                         </h4>
@@ -101,7 +101,7 @@ export default function ProductShowcase() {
                     <div className="absolute inset-0 bg-primary/5 opacity-40 blur-[100px] -z-10 rounded-full" />
                     
                     {/* Phone Mockup Frame */}
-                    <div className="relative w-full max-w-[280px] md:max-w-[320px] aspect-[9/19] rounded-[2.5rem] overflow-hidden bg-slate-950 ring-1 ring-border shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] dark:shadow-[0_20px_50px_-12px_rgba(0,0,0,0.4)] border-[6px] border-slate-900 flex flex-col transition-transform duration-700 hover:scale-[1.02]">
+                    <div className="relative w-full max-w-[350px] md:max-w-[380px] aspect-[9/19] rounded-[2.5rem] overflow-hidden bg-slate-950 ring-1 ring-border shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] dark:shadow-[0_20px_50px_-12px_rgba(0,0,0,0.4)] border-[6px] border-slate-900 flex flex-col transition-transform duration-700 hover:scale-[1.02]">
                       {/* Fake Phone Notch */}
                       <div className="absolute top-0 inset-x-0 h-6 flex justify-center z-50 pointer-events-none">
                          <div className="w-24 h-5 bg-slate-900 rounded-b-2xl shadow-sm"></div>
@@ -112,6 +112,16 @@ export default function ProductShowcase() {
                         <WidgetRenderer id={p.id} />
                       </div>
                     </div>
+                  </div>
+
+                  {/* Clean Minimal Risk Section instead of a dark box - Mobile only */}
+                  <div className="lg:hidden w-full pl-6 border-l-2 border-secondary/30 mt-4">
+                    <h4 className="font-playfair text-foreground font-bold text-lg mb-2">
+                      {t(`p${p.id}RiskTitle`)}
+                    </h4>
+                    <p className="text-base font-inter text-muted-foreground leading-relaxed">
+                      {t(`p${p.id}RiskDesc`)}
+                    </p>
                   </div>
                 </motion.div>
 
