@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "source": "functions",
+    "ignore": [
+      "venv",
+      ".venv",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "*.pyc",
+      "__pycache__"
+    ]
+  }
+}

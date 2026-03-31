@@ -1,0 +1,75 @@
+{
+  "HomePage": {
+    "title": "Seneca MD — Digital Transformation Proposal",
+    "description": "An interactive preview of Seneca MD's next generation of digital patient experiences."
+  },
+  "TopNav": {
+    "deck": "DECK",
+    "vision": "The Vision",
+    "solutions": "Solutions",
+    "contact": "Get Started"
+  },
+  "Hero": {
+    "badge": "Digital Transformation Proposal",
+    "headlineP1": "Surgical Excellence.",
+    "headlineP2": "Digital Perfection.",
+    "subheadline": "AI-powered patient journeys — from first inquiry to full recovery.",
+    "cta": "See It In Action"
+  },
+  "TheGap": {
+    "line1": "You built the finest hair restoration clinic in Europe.",
+    "line2": "But your patients' digital journey still begins with a contact form — and ends with an email.",
+    "line3": "We're here to change that."
+  },
+  "ProductShowcase": {
+    "mainLabel": "THE SOLUTIONS",
+    "mainTitle": "Three ways we transform the patient experience",
+    "mainDesc": "Each solution is built to work independently or together — creating a seamless digital ecosystem around your clinic.",
+
+    "p1Title": "From first click to booked consultation — one AI conversation",
+    "p1Desc": "Imagine a patient lands on your site at 2 AM from Dubai. Instead of filling out a form and waiting days for a reply, they chat with an AI assistant that speaks their language, answers their questions, assesses their photos, and books them into your next available slot. By morning, your team has a pre-qualified lead with visual analysis ready.",
+    "p1WidgetHint": "Watch the automated interaction demo",
+    "p1RiskTitle": "Compliance & Implementation",
+    "p1RiskDesc": "Architected with a mandatory 'Human-in-the-Loop' safeguard, preventing autonomous diagnosis and ensuring MDR compliance. The AI acts as a pre-qualification (AI Triage) and Agentic Booking tool, minimizing response times while human advisors retain the final authority. System operates entirely within EU Data Residency.",
+
+    "p2Title": "Their recovery companion. Your recurring revenue engine.",
+    "p2Desc": "Surgery is day one. The real relationship is the 12 months that follow. MySeneca keeps patients engaged with milestone tracking, photo progress monitoring, and direct messaging with your care team. And when they need their next bottle of finasteride or scalp care serum — it's one tap, auto-delivered, auto-billed.",
+    "p2WidgetHint": "View the patient app interface",
+    "p2RiskTitle": "Scale & Revenue Strategy",
+    "p2RiskDesc": "Post-op photo collection is protected via a specialized DPIA and explicit consent (GDPR Art. 9). Simultaneously, the application natively integrates a subscription e-commerce model, transforming aftercare into a predictable stream of Recurring Revenue and drastically increasing the Customer Lifetime Value.",
+
+    "p3Title": "What if patients could see the result before the surgery?",
+    "p3Desc": "The biggest barrier to conversion isn't price — it's uncertainty. Nano Banana uses generative AI to show patients a realistic preview of their post-procedure appearance. Conservative, medically-grounded projections designed so that clinical reality always exceeds the digital preview.",
+    "p3WidgetHint": "Automated Norwood depletion simulation",
+    "p3RiskTitle": "Expectations & Vendor Management",
+    "p3RiskDesc": "Generative AI is a powerful sales catalyst. To mitigate the risk of unrealistic expectations, the tool requires strict disclaimers ('illustrative digital simulation') and a robust Data Processing Agreement (DPA) with the provider, functioning strictly as an interactive consultative asset."
+  },
+  "NumbersStrip": {
+    "stat1Value": "5,000+",
+    "stat1Label": "Admin Hours Saved",
+    "stat2Value": "< 2s",
+    "stat2Label": "AI Response Time",
+    "stat3Value": "6-8 wks",
+    "stat3Label": "To First MVP",
+    "stat4Value": "100%",
+    "stat4Label": "EU Data Residency"
+  },
+  "AuthorIntro": {
+    "label": "THE ARCHITECT",
+    "name": "Fotis (Lotus) Dovas",
+    "title": "AI Product Architect · 0-to-1 Builder",
+    "description": "I'm not a large agency or an anonymous sales team. I'm an independent AI architect and product engineer specializing in LLM orchestration, agentic systems, and premium UX. I partner directly with visionary businesses to design, build, and deploy transparent AI products from the ground up.",
+    "experience": "Freelance · University of the Aegean",
+    "linkedinBtn": "Connect on LinkedIn"
+  },
+  "CTA": {
+    "headline": "Ready to transform Seneca MD?",
+    "subheadline": "Contact me directly to discuss the next steps, timelines, and the full implementation roadmap.",
+    "primaryBtn": "Email Me",
+    "secondaryBtn": "Call Mobile",
+    "badge1": "GDPR Compliant",
+    "badge2": "Human-in-the-Loop AI",
+    "badge3": "EU Data Residency",
+    "badge4": "Zero Autonomous Diagnosis"
+  }
+}
